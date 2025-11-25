@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VideoScript",
+  "type": "object",
+  "required": ["title", "script", "storyboard", "duration"],
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Title of the video"
+    },
+    "script": {
+      "type": "string",
+      "description": "Narrative or instructions for the video"
+    },
+    "storyboard": {
+      "type": "array",
+      "description": "Timed actions for video rendering",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "action", "text"],
+        "properties": {
+          "timestamp": {
+            "type": "number",
+            "description": "Time in seconds for this action"
+          },
+          "action": {
+            "type": "string",
+            "description": "Storyboard action (e.g., show_ingredients, mash_avocado)"
+          },
+          "text": {
+            "type": "string",
+            "description": "Text or label for this storyboard step"
+          }
+        }
+      }
+    },
+    "duration": {
+      "type": "number",
+      "description": "Total video duration in seconds"
+    }
+  }
+}

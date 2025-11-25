@@ -1,0 +1,10 @@
+{
+  "title": "Speedy Avocado Toast",
+  "script": "Mash avocado on whole grain toast, top with cherry tomatoes and a dash of pepper. Quick, nutritious, and delicious.",
+  "storyboard": [
+    { "timestamp": 0, "text": "Avocado, toast, tomatoes", "action": "show_ingredients", "duration": 3 },
+    { "timestamp": 3, "text": "Mash avocado", "action": "mash_avocado", "duration": 3 },
+    { "timestamp": 6, "text": "Top toast, add tomatoes", "action": "assemble", "duration": 3 }
+  ],
+  "duration": 9
+}

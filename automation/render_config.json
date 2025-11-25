@@ -1,0 +1,9 @@
+{
+  "ffmpeg_path": "ffmpeg",
+  "resolution": "1080x1920",
+  "font_path": "assets/font.ttf",
+  "font_size": 64,
+  "background_mode": "color",
+  "background_color": "#222222",
+  "background_video_path": "assets/background.mp4"
+}

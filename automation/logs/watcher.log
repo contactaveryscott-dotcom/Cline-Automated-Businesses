@@ -1,0 +1,4 @@
+2025-11-24 15:12:10 Watcher started.
+2025-11-24 15:12:10 Valid script detected: automation/incoming/sample_script.json
+2025-11-24 15:12:10 Error processing automation/incoming/sample_script.json: Command '['python3', 'automation/renderer_ffmpeg.py', 'automation/incoming/sample_script.json', 'automation/rendered/sample_script.mp4']' returned non-zero exit status 1.
+2025-11-24 15:12:10 Invalid schema: automation/incoming/script_schema.json
