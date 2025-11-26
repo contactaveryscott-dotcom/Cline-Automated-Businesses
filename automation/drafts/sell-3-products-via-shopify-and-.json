@@ -2,14 +2,14 @@
   "slug": "sell-3-products-via-shopify-and-",
   "description": "Shopify + newsletter",
   "owner": "Avery",
-  "createdAt": "2025-11-25T22:00:27.855475",
+  "createdAt": "2025-11-26T01:10:23.938952",
   "labels": [
     "draft",
     "ai-generated"
   ],
   "audit": {
     "owner": "Avery",
-    "createdAt": "2025-11-25T22:00:27.855475"
+    "createdAt": "2025-11-26T01:10:23.938952"
   },
   "trigger": {
     "type": "manual",
@@ -21,9 +21,8 @@
   "steps": [
     {
       "module": "newsletter-mvp",
-      "script": "automation/simulate_workflows.py",
-      "args": {},
-      "note": "TODO: modules/newsletter-mvp/scripts/send_newsletter.py missing, using fallback."
+      "script": "modules/newsletter-mvp/scripts/send_newsletter.py",
+      "args": {}
     }
   ]
 }
